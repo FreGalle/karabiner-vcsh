@@ -1,0 +1,257 @@
+{
+  "title": "Fix my keyboard woes after having spilled red wine",
+  "rules": [
+    {
+      "description": "Ignore left_control when pressed simultaneously with z",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "z"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with x",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "x"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "x"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with v",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "v"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "v"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with b",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "b"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with n",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "n"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "n"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with m",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "m"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with comma",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "comma"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "comma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with period",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "period"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "period"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with left_command",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "left_gui"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_gui"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
