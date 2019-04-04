@@ -226,6 +226,34 @@
       ]
     },
     {
+      "description": "Ignore left_control when pressed simultaneously with slash",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "slash"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "slash"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "description": "Ignore left_control when pressed simultaneously with left_command",
       "manipulators": [
         {

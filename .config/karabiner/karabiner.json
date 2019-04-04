@@ -265,6 +265,34 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "description": "Ignore left_control when pressed simultaneously with slash",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    },
+                                    "simultaneous": [
+                                        {
+                                            "key_code": "slash"
+                                        },
+                                        {
+                                            "key_code": "left_control"
+                                        }
+                                    ]
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "slash"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
                     }
                 ]
             },
