@@ -15,6 +15,62 @@
                 },
                 "rules": [
                     {
+                        "description": "Ignore left_control when pressed simultaneously with z",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    },
+                                    "simultaneous": [
+                                        {
+                                            "key_code": "z"
+                                        },
+                                        {
+                                            "key_code": "left_control"
+                                        }
+                                    ]
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "z"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Ignore left_control when pressed simultaneously with x",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    },
+                                    "simultaneous": [
+                                        {
+                                            "key_code": "x"
+                                        },
+                                        {
+                                            "key_code": "left_control"
+                                        }
+                                    ]
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "x"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Ignore left_control when pressed simultaneously with v",
                         "manipulators": [
                             {
@@ -183,6 +239,34 @@
                         ]
                     },
                     {
+                        "description": "Ignore left_control when pressed simultaneously with slash",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    },
+                                    "simultaneous": [
+                                        {
+                                            "key_code": "slash"
+                                        },
+                                        {
+                                            "key_code": "left_control"
+                                        }
+                                    ]
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "slash"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Ignore left_control when pressed simultaneously with left_command",
                         "manipulators": [
                             {
@@ -211,7 +295,7 @@
                         ]
                     },
                     {
-                        "description": "Ignore left_control when pressed simultaneously with z",
+                        "description": "Ignore left_control when pressed simultaneously with hyphen",
                         "manipulators": [
                             {
                                 "from": {
@@ -222,7 +306,7 @@
                                     },
                                     "simultaneous": [
                                         {
-                                            "key_code": "z"
+                                            "key_code": "hyphen"
                                         },
                                         {
                                             "key_code": "left_control"
@@ -231,7 +315,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "z"
+                                        "key_code": "hyphen"
                                     }
                                 ],
                                 "type": "basic"
@@ -239,7 +323,7 @@
                         ]
                     },
                     {
-                        "description": "Ignore left_control when pressed simultaneously with x",
+                        "description": "Ignore left_control when pressed simultaneously with 0",
                         "manipulators": [
                             {
                                 "from": {
@@ -250,7 +334,7 @@
                                     },
                                     "simultaneous": [
                                         {
-                                            "key_code": "x"
+                                            "key_code": "0"
                                         },
                                         {
                                             "key_code": "left_control"
@@ -259,7 +343,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "x"
+                                        "key_code": "0"
                                     }
                                 ],
                                 "type": "basic"
@@ -267,7 +351,7 @@
                         ]
                     },
                     {
-                        "description": "Ignore left_control when pressed simultaneously with slash",
+                        "description": "Ignore left_control when pressed simultaneously with equal_sign",
                         "manipulators": [
                             {
                                 "from": {
@@ -278,7 +362,7 @@
                                     },
                                     "simultaneous": [
                                         {
-                                            "key_code": "slash"
+                                            "key_code": "equal_sign"
                                         },
                                         {
                                             "key_code": "left_control"
@@ -287,7 +371,175 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "slash"
+                                        "key_code": "equal_sign"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Ignore left_control when pressed simultaneously with open_bracket",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    },
+                                    "simultaneous": [
+                                        {
+                                            "key_code": "open_bracket"
+                                        },
+                                        {
+                                            "key_code": "left_control"
+                                        }
+                                    ]
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "open_bracket"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Ignore left_control when pressed simultaneously with escape",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    },
+                                    "simultaneous": [
+                                        {
+                                            "key_code": "escape"
+                                        },
+                                        {
+                                            "key_code": "left_control"
+                                        }
+                                    ]
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "escape"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Ignore left_control when pressed simultaneously with semicolon",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    },
+                                    "simultaneous": [
+                                        {
+                                            "key_code": "semicolon"
+                                        },
+                                        {
+                                            "key_code": "left_control"
+                                        }
+                                    ]
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "semicolon"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Ignore left_control when pressed simultaneously with open_bracket",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    },
+                                    "simultaneous": [
+                                        {
+                                            "key_code": "open_bracket"
+                                        },
+                                        {
+                                            "key_code": "left_control"
+                                        }
+                                    ]
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "open_bracket"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Ignore left_control when pressed simultaneously with close_bracket",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    },
+                                    "simultaneous": [
+                                        {
+                                            "key_code": "close_bracket"
+                                        },
+                                        {
+                                            "key_code": "left_control"
+                                        }
+                                    ]
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "close_bracket"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Ignore left_control when pressed simultaneously with backslash",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    },
+                                    "simultaneous": [
+                                        {
+                                            "key_code": "backslash"
+                                        },
+                                        {
+                                            "key_code": "left_control"
+                                        }
+                                    ]
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "backslash"
                                     }
                                 ],
                                 "type": "basic"
