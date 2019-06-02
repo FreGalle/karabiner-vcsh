@@ -2,6 +2,818 @@
   "title": "Fix my keyboard woes after having spilled red wine",
   "rules": [
     {
+      "description": "Ignore left_control when pressed simultaneously with spacebar",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "spacebar"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "spacebar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with right_shift",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "right_shift"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "right_shift"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with tab",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "tab"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "tab"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with q",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "q"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "q"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with w",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "w"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "w"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with e",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "e"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "e"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with r",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "r"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "r"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with t",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "t"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "t"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with y",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "y"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "y"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with u",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "u"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "u"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with i",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "i"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "i"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with o",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "o"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "o"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with p",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "p"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "p"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with open_bracket",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "open_bracket"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "open_bracket"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with close_bracket",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "close_bracket"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "close_bracket"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with backslash",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "backslash"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "backslash"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with a",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "a"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with s",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "s"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with d",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "d"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with f",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "f"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with g",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "g"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with h",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "h"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "h"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with j",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "j"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "j"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with k",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "k"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "k"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with l",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "l"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "l"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with semicolon",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "semicolon"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "semicolon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with quote",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "quote"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "quote"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with return_or_enter",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "return_or_enter"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "return_or_enter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with left_shift",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "left_shift"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_shift"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "description": "Ignore left_control when pressed simultaneously with z",
       "manipulators": [
         {
@@ -366,34 +1178,6 @@
       ]
     },
     {
-      "description": "Ignore left_control when pressed simultaneously with open_bracket",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "simultaneous": [
-              {
-                "key_code": "open_bracket"
-              },
-              {
-                "key_code": "left_control"
-              }
-            ],
-            "modifiers": {
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "open_bracket"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "description": "Ignore left_control when pressed simultaneously with escape",
       "manipulators": [
         {
@@ -478,14 +1262,14 @@
       ]
     },
     {
-      "description": "Ignore left_control when pressed simultaneously with close_bracket",
+      "description": "Ignore left_control when pressed simultaneously with up_arrow",
       "manipulators": [
         {
           "type": "basic",
           "from": {
             "simultaneous": [
               {
-                "key_code": "close_bracket"
+                "key_code": "up_arrow"
               },
               {
                 "key_code": "left_control"
@@ -499,21 +1283,21 @@
           },
           "to": [
             {
-              "key_code": "close_bracket"
+              "key_code": "up_arrow"
             }
           ]
         }
       ]
     },
     {
-      "description": "Ignore left_control when pressed simultaneously with backslash",
+      "description": "Ignore left_control when pressed simultaneously with down_arrow",
       "manipulators": [
         {
           "type": "basic",
           "from": {
             "simultaneous": [
               {
-                "key_code": "backslash"
+                "key_code": "down_arrow"
               },
               {
                 "key_code": "left_control"
@@ -527,7 +1311,63 @@
           },
           "to": [
             {
-              "key_code": "backslash"
+              "key_code": "down_arrow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with left_arrow",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "left_arrow"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_arrow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ignore left_control when pressed simultaneously with right_arrow",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "right_arrow"
+              },
+              {
+                "key_code": "left_control"
+              }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "right_arrow"
             }
           ]
         }
