@@ -1,0 +1,9 @@
+*
+!/.config
+!/.config/karabiner
+!/.config/karabiner/assets
+!/.config/karabiner/assets/complex_modifications
+!/.config/karabiner/assets/complex_modifications/**
+!/.config/karabiner/karabiner.json
+!/.gitignore.d
+!/.gitignore.d/karabiner
